@@ -16,7 +16,8 @@
     // Add your custom code here.
   };
 
-  var TITLE = "Dendry-starter-pack" + '_' + "Your name";
+  // TODO: change this!
+  var TITLE = "Game title" + '_' + "Your name";
 
   window.quickSave = function() {
       var saveString = JSON.stringify(window.dendryUI.dendryEngine.getExportableState());
