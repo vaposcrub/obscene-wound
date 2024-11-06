@@ -1,11 +1,9 @@
-title: Root Scene
+title: Hub
 new-page: true
+max-choices: 4
 
-This is the root scene. The root scene is normally used
-as a hub: the choices allow you to go to different sections of your
-story. In shorter works it may just function as the first scene in the
-game, sending the player off into the tree of choices. If the root
-scene doesn't have any choices that it can display, the game is over.
+[? if start != 0 : You have known the star for [? if weeks != 0 : [+ weeks +] week(s) and  ?][+ days +] day(s). ?]
 
-# Scenes with a top tag can be displayed here.
-- #top
+[? if start != 0 : It is [? if watch > 0 and watch < 3 : the morning. ?][? if watch > 2 and watch < 5 : the afternoon. ?][? if watch > 4 and watch < 7 : the evening. ?] ?]
+
+- #start

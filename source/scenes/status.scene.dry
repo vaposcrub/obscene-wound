@@ -1,9 +1,7 @@
-title: Qualities
+title: Status
 
 # this scene contains information for the sidebar.
 
 = Status
 
 This is the status bar. Stats can be displayed here.
-
-Stat 1: [+ stat_1 +]
