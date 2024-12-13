@@ -256,6 +256,7 @@ blockquote + blockquote.attribution {
     z-index: -100;
 }
 #bg1 {
+  background-color: orange;
     z-index: -99;
 }
 .b {
