@@ -1,0 +1,5 @@
+.DS_Store
+node_modules
+out/html/jquery-1.11.1.min.js
+out/html/core.js
+out/game.json
