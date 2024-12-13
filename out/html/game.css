@@ -4,6 +4,7 @@
   --sand: #F2C995;
   --yellow: #F5B144;
   --orange: #F09658;
+  --darktext: #05090d;
 }
 
 body {
@@ -15,7 +16,7 @@ body {
   overflow-y: scroll;
 }
 header, #content, footer {
-  color: #431;
+  color: var(--darktext);
   max-width: 540px;
   margin: 0 auto;
 }
@@ -34,6 +35,7 @@ header {
 }
 #header-links a {
   padding-right: 1em;
+  color: var(--darktext);
 }
 header h1, header h2 {
   display: inline-block;
@@ -51,10 +53,15 @@ header h2:before {
 }
 #content {
   position: relative;
-  background-color: #f3f3f3;
+  background-color: var(--sand);
   font-size: 1.1em;
   padding: 1em 1.5em 1.5em 1.5em;
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  
+  a {
+    color: var(--darktext);
+    text-decoration: underline;
+  }
 }
 #content #read-marker {
   border: none;
@@ -166,9 +173,10 @@ blockquote + blockquote.attribution {
 .tools {
   padding: 0.6em;
   width: 14rem;
-  color: #431;
-  background-color: #f3f3f3;
+  color: var(--darktext);
+  background-color: var(--yellow);
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 1em;
 }
 .tools.left {
   float: left;
@@ -191,8 +199,7 @@ blockquote + blockquote.attribution {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  text-shadow: rgba(255, 255, 255, 0.75) 2px 2px 2px,
-               rgba(0, 0, 0, 0.1) -1px -1px 2px;
+
 }
 #qualities h1 + p:first-line {
   font-weight: normal;
@@ -264,7 +271,7 @@ blockquote + blockquote.attribution {
     z-index: -100;
 }
 #bg1 {
-  background-color: orange;
+  background-color: var(--darkblue);
     z-index: -99;
 }
 .b {
@@ -338,6 +345,7 @@ img {
       font-size: 1em;
       line-height: 160%;
       padding: 1em 1em 1.5em 1em;
+      border-radius: 1em;
   }
   #qualities {
       font-size: 1em;
