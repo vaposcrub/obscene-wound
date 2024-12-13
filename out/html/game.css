@@ -1,3 +1,11 @@
+:root {
+  --darkblue: #789ECD;
+  --lightblue: #9FC0DF;
+  --sand: #F2C995;
+  --yellow: #F5B144;
+  --orange: #F09658;
+}
+
 body {
   font-family: "Minion Pro", Georgia, serif;
   /*font-size: 1.125em;*/
