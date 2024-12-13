@@ -14,6 +14,14 @@
     game = ui.game;
 
     // Add your custom code here.
+
+    // add something to the sidebar
+    const addContentToSidebar = () => {
+        const sidebar = document.getElementById("stats_sidebar")
+        sidebar.append("Hey I am new")
+    }
+
+    addContentToSidebar()
   };
 
   // TODO: change this!
