@@ -11,3 +11,12 @@ See `source/scenes/status.scene.dry` Everything in this scene will be displayed 
 ## Editing the stylesheet and/or adding custom JS
 
 See `out/html/game.css` and `out/html/game.js`.
+
+## Running locally
+
+### Install dependencies
+Run `npm install` in the repository folder.
+
+### Build the game
+Run `npm run dendry make-html` in the repository folder.
+This will build the game and put the result in the out/html folder.
