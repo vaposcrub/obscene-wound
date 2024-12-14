@@ -1,3 +1,11 @@
+:root {
+  --teal: #54777B;
+  --plum: #582126;
+  --pink: #AD3240;
+  --orange: #D7624B;
+  --yellow: #E4D37C;
+}
+
 body {
   font-family: "Minion Pro", Georgia, serif;
   /*font-size: 1.125em;*/
