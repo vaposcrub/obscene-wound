@@ -5,15 +5,17 @@
   --orange: #D7624B;
   --yellow: #E4D37C;
   --spacing: 1em;
+  --half-spacing: calc(var(--spacing) / 2);
+  --curve: 4px;
+
+  --lighttext: var(--yellow);
 }
 
 body {
-  margin: 0;
-  padding: 0 var(--spacing);
-  min-height: 100vh;
-  background-color: var(--teal);
   font-family: "Minion Pro", Georgia, serif;
   /*font-size: 1.125em;*/
+  background-color: #f3f3e3;
+  padding: 0;
   line-height: 155%;
   overflow-y: scroll;
 }
@@ -263,12 +265,12 @@ blockquote + blockquote.attribution {
  * This is used for overlaying transparencies
  * only transition on fade-in
  * */
-/* #bg2 {
+#bg2 {
     z-index: -100;
 }
 #bg1 {
     z-index: -99;
-} */
+}
 .b {
 }
 .save_button {
