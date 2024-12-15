@@ -20,3 +20,6 @@ Run `npm install` in the repository folder.
 ### Build the game
 Run `npm run dendry make-html` in the repository folder.
 This will build the game and put the result in the out/html folder.
+
+### Run the game locally
+eg. `npx serve out/html`
