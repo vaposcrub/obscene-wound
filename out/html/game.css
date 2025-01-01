@@ -1,15 +1,16 @@
 :root {
-  --grey: #3e3e3e;
-  --white: #ffffff;
-  --gold: #ffb83e;
-  --pale_gold: #ffe8ae;
-  --faded_grey: #cacaca;
+  --teal: #54777B;
+  --plum: #582126;
+  --pink: #AD3240;
+  --orange: #D7624B;
+  --yellow: #E4D37C;
   --spacing: 1em;
   --half-spacing: calc(var(--spacing) / 2);
   --border-width: 8px;
   --curve: 4px;
-  --lighttext: var(--white);
-  --pagebg: var(--grey);
+
+  --lighttext: #faf7e7; /* sufficient contrast on teal background */
+  --pagebg: var(--teal);
 }
 
 body {
@@ -358,4 +359,5 @@ img {
       margin: 0 auto;
   }
 }
+
 
