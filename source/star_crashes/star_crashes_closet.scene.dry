@@ -1,0 +1,48 @@
+title: star_crashes_closet
+new-page: true
+
+**BOOM!** Something tears apart the ground of the clearing outside the tower. A shockwave of heat sweeps through the entire forest, reaching you even behind the portrait.
+
+The air becomes hot, suffocating. Your blood is like acid beneath your skin. A gasp barely cracks out of your lips.
+
+- @star_crashes_closet_examine: Go out and investigate.
+- @star_crashes_closet_hiding: Stay right where you are.
+
+@star_crashes_closet_examine
+subtitle: That voice is right. You should try to be brave.
+
+The first thing to become apparent when you ease open the door to your hiding spot is the bright, hot light flooding the observatory floor. It consumes the recess in an instant, dazzling you for a moment before the light abates and reveals a figure in the centre of the room.
+
+It looks like a person around your age, early 20s. He's still glowing with strong, golden light as he—*floats* in place, idly tossing one of the wizard's scrying lenses between his hands as his eyes glance around the room with a furrow to his brow. But then his gaze alights upon you, and he becomes stock-still.
+
+Before surging forward with the brightest smile you've ever seen, scrying lens in one hand as he glides before you, inches in front of your face. When he blinks, little motes of orange light spark off his eyelashes and illuminate the yellows of his irises.
+
+- @link_intro_star_crashes_closet_examine: "I've found you!"
+
+@link_intro_star_crashes_closet_examine
+go-to: intro_star_crashes_closet_examine
+
+@star_crashes_closet_hiding
+subtitle: That voice can rot in Asbythe. You're not going anywhere.
+
+The temperature in the recess creeps higher and higher as the seconds tick by. With the total absence of light to see by, your hearing sharpens, catching on the sounds of shuffling and movement on the other side of the hidden door. Sweat collects at your brow as anticipation crackles in the pitch black.
+
+It feels like it might go on forever, like that.
+
+But then the sound goes quiet. It almost seems as if whatever is out there is gone.
+
+- @star_crashes_closet_hiding2: That is, until...
+
+@star_crashes_closet_hiding2
+new-page: true
+
+That is, until the air sets on fire with screeching and light—screeching, from the sound of stone grinding against stone somewhere in the black, and light, as the newly opened door to the recess opens up the space to a blinding flash of brilliant white. Your vision goes blank for a terrible moment, before slowly returning to you through a watery film of dazzlement.
+
+Your recovering vision reveals a figure standing in the newly opened doorway. A person.
+
+He looks to be around your age, early 20s, and *floating* in place with a disorientingly bright smile on his face. A halo of strong, golden light glows from him as he glides forward, face inches from yours as he speaks. When he blinks, little orange motes of light spark off his eyelashes.
+
+- @link_intro_star_crashes_closet_hiding: "I've found you!"
+
+@link_intro_star_crashes_closet_hiding
+go-to: intro_star_crashes_closet_hiding

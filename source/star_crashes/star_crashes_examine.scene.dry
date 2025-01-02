@@ -18,7 +18,7 @@ His bright yellow eye fills your vision as he peers into the lens, then nudges t
 
 "Finally!" the star says, and leans right over the open window, hovering very close to your face. When he blinks, little orange motes of light spark off his lashes.
 
-- @star_intro_examine: "I've found you!"
+- @link_intro_star_crashes_examine: "I've found you!"
 
-@star_intro_examine
-new-page: true
+@link_intro_star_crashes_examine
+go-to: intro_star_crashes_examine

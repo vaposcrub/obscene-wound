@@ -26,7 +26,7 @@ He glides into the house, yellow eyes bright and joyful, exclaiming "Finally!"
 
 His smiling face hovers a few inches from your own and, when he blinks, little orange motes of light spark off his lashes.
 
-- @star_intro_wand: "I've found you!"
+- @link_intro_star_crashes_wand: "I've found you!"
 
-
-@star_intro_wand
+@link_intro_star_crashes_wand
+go-to: intro_star_crashes_wand

@@ -1,7 +1,9 @@
-title: Status
+title: The facts.
 
 # this scene contains information for the sidebar.
 
-= Status
+= The facts.
 
-This is the status bar. Stats can be displayed here.
+It is [? if watch > 0 and watch < 3 : the morning. ?][? if watch > 2 and watch < 5 : the afternoon. ?][? if watch > 4 and watch < 7 : the evening. ?]
+
+[? if start != 0 : You have known the star for [? if weeks != 0 : [+ weeks +] week(s) and  ?][+ days +] day(s). ?]
